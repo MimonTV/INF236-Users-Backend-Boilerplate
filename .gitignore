@@ -1,5 +1,7 @@
 # Secrets
 .env
+pgadmin/
+postgres-data/
 
 # Logs
 logs

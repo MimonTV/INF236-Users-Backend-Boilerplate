@@ -1,5 +1,10 @@
 import dotenv from "dotenv";
-import server from "./src/app";
+import database from "./src/database.js";
+import loadModels from "./src/models/loader.js";
+import server from "./src/server.js";
+
+// Cargar las relaciones de los modelos 
+loadModels();
 
 dotenv.config();
 server.listen(process.env.PORT, () =>
