@@ -51,7 +51,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Gonzalo Fernández\",\r\n    \"email\": \"gonzalo@vadok.dev\"\r\n}",
+					"raw": "{\r\n    \"nombre\": \"Gonzalo Fernández\",\r\n    \"email\": \"gonzalo@vadok.dev\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -79,7 +79,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Gonzalo\"\r\n}",
+					"raw": "{\r\n    \"nombre\": \"Gonzalo\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

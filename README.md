@@ -59,4 +59,10 @@ docker-compose up
 
 Notar que si ya tienen una base de datos, no es necesario utilizar ésto, por eso es que esta parte es opcional.
 
+### (Opcional) Colleción de Endpoints en Postman
+
+Para probar de manera fácil este proyecto, sin necesidad de levantar el Front-End, se les dejó también una colleción en formato .json la cual pueden importar en Postman, ésto les permitirá consumir la API de este Backend y hacer pruebas de los endpoint que implementen. La collección se encuentra en el archivo 
+
+![Postman](https://puu.sh/HFbcz/999b5ae291.png)
+
 
