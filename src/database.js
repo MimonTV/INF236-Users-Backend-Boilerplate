@@ -1,5 +1,8 @@
 import { Sequelize } from 'sequelize';
-import loadModels from './models/loader.js';
+import dotenv from "dotenv";
+
+// Inicializar las configuraciones del archivo .env
+dotenv.config();
 
 // Inicializar Sequelize para conectarse a la BD
 const sequelize = new Sequelize({
