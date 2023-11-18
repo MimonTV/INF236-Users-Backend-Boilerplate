@@ -9,11 +9,13 @@ User.init({
     autoIncrement: true,
     primaryKey: true,
   },
+  rut: Sequelize.DataTypes.STRING,
   nombre: Sequelize.DataTypes.STRING,
+  password: Sequelize.DataTypes.STRING,
   email: {
     type: Sequelize.DataTypes.STRING,
     unique: true,
-    allowNull: false
+    allowNull: true
   }}, {
     sequelize,
     timestamps: true,
